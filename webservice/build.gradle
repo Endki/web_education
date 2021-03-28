@@ -1,14 +1,27 @@
 buildscript {
+//    전역변수설정
     ext {
-        springBootVersion= '2.1.7.RELEASE'
+        springBootVersion = '2.1.7.RELEASE'
     }
     repositories {
-        
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
     }
 }
 
-plugins {
-    id 'java'
+//플러그인 스프링부트 의존성 추가
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+//라이브러리 받을 원격 저장소 설정
+repositories {
+    mavenCentral()
+    jcenter()
 }
 
 group 'com.edu.book'
@@ -21,5 +34,7 @@ repositories {
 }
 
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile('org.springframework.boot:spring-boot-starter-web')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
