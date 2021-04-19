@@ -1,5 +1,6 @@
 package com.edu.book.springboot.domain.posts;
 
+import com.edu.book.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -11,7 +12,7 @@ import javax.persistence.*;
 @Entity
 //setter 메소드가 없는 이유 = 클래스의 인스턴스 값들이 언제 어디서 변해야하는지 코드상으로 명확하게 구분 불가함 -> 차후 기능 변경시 복잡
 // 그렇기 때문에 Entity 클래스에서는 절대로 Setter 메소드를 만들지 않는다.
-public class Posts {
+public class Posts extends BaseTimeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
