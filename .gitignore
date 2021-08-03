@@ -1,2 +1,4 @@
 
 webservice/src/main/resources/application.properties
+*.properties
+webservice/src/main/resources/application.properties
