@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.edu.book.springboot.Controller.dto.HelloResponseDtoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-04T13:00:04" hostname="DESKTOP-SC72C65" time="0.001">
+  <properties/>
+  <testcase name="롬복_기능_테스트" classname="com.edu.book.springboot.Controller.dto.HelloResponseDtoTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
