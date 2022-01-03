@@ -63,9 +63,13 @@
       <div class="at-container">
         <div class="header-logo">
           <a href="https://gezip.net/">
-            <img src="" alt="Endki" title="" />
+            <img
+              src="../assets/pinterest_profile_image.png"
+              alt="Endki_portfolio"
+              title=""
+            />
           </a>
-          <span class="header-desc"> Endki </span>
+          <span class="header-desc"> Endki_portfolio </span>
         </div>
       </div>
       <div class="header-search">
