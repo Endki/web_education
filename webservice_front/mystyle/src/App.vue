@@ -12,7 +12,7 @@
 
 <script>
 import Header from './components/header.vue';
-import Index from './components/index.vue';
+import Index from './pages/home.vue';
 
 export default {
   name: 'App',
