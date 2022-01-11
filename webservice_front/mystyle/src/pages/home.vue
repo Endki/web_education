@@ -1,50 +1,14 @@
 <template>
   <b-container>
     <b-row>
-      <b-col cols="12" md="3"></b-col>
-      <b-col cols="12" md="2" align="center">
-        <b-btn
-          color="light-green"
-          @click="mobetoboard1"
-          :style="{
-            height: '50px',
-            width: '170px',
-            fontWeight: 'bold',
-            fontSize: 'large',
-          }"
-          >게시판1</b-btn
-        >
+      <b-col cals="9">
+        <b-col fluid="sm" cols="6"> 게시판! </b-col>
+        <b-col fluid="sm" cols="4"> 게시판! </b-col>
       </b-col>
-      <b-col cols="12" md="2" align="center">
-        <b-btn
-          color="yellow"
-          @click="mobetoboard2"
-          :style="{
-            height: '50px',
-            width: '170px',
-            fontWeight: 'bold',
-            fontSize: 'large',
-          }"
-          >게시판2</b-btn
-        >
-      </b-col>
-      <b-col cols="12" md="2" align="center">
-        <b-btn
-          color="orange"
-          type="submit"
-          @click="mobetoboard3"
-          :style="{
-            height: '50px',
-            width: '170px',
-            fontWeight: 'bold',
-            fontSize: 'large',
-          }"
-          >게시판3</b-btn
-        >
-      </b-col>
-      <b-col cols="12" md="3"></b-col>
-    </b-row>
-  </b-container>
+
+      <b-col cols="3">회원정보</b-col>
+    </b-row></b-container
+  >
 </template>
 
 <script>
