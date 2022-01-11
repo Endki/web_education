@@ -6,13 +6,14 @@
         <b-col fluid="sm" cols="4"> 게시판! </b-col>
       </b-col>
 
-      <b-col cols="3">회원정보</b-col>
-    </b-row></b-container
-  >
+      <b-col cols="3"><side /></b-col> </b-row
+  ></b-container>
 </template>
 
 <script>
+import side from '../components/side.vue';
 export default {
+  components: { side },
   props: {
     msg: String,
   },
