@@ -6,14 +6,14 @@
         <b-col fluid="sm" cols="4"> 게시판! </b-col>
       </b-col>
 
-      <b-col cols="3"><side /></b-col> </b-row
+      <b-col cols="3"><Side /></b-col> </b-row
   ></b-container>
 </template>
 
 <script>
-import side from '../components/side.vue';
+import Side from '../components/side.vue';
 export default {
-  components: { side },
+  components: { Side },
   props: {
     msg: String,
   },
