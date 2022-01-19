@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0550f1a5-c036-4393-bf12-e4abb7098db2" name="Default Changelist" comment="" />
+    <list default="true" id="0550f1a5-c036-4393-bf12-e4abb7098db2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/webservice_front/mystyle/src/components/layout/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/webservice_front/mystyle/src/components/layout/header.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webservice_back" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,6 +38,7 @@
       <workItem from="1617197483412" duration="20000" />
       <workItem from="1618214678904" duration="8000" />
       <workItem from="1627478431302" duration="42000" />
+      <workItem from="1642416910662" duration="24000" />
     </task>
     <servers />
   </component>
@@ -43,9 +46,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="749" y="380" key="FileChooserDialogImpl" timestamp="1627478472685">
+    <state x="786" y="429" key="FileChooserDialogImpl" timestamp="1642416937465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="749" y="380" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1627478472685" />
+    <state x="786" y="429" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1642416937465" />
   </component>
 </project>

@@ -73,7 +73,9 @@
           <b-navbar-nav>
             <b-nav-item href="#">포트폴리오</b-nav-item>
             <b-nav-item href="#">JavaScript 게임</b-nav-item>
-            <b-nav-item href="#">게시판</b-nav-item>
+            <b-nav-item :link="{ name: 'board', path: '/board' }"
+              >게시판</b-nav-item
+            >
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
