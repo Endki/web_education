@@ -31,7 +31,7 @@
       <b-row>
         <b-col></b-col>
         <b-col class="header-logo" align-v="center">
-          <a href="#">
+          <a href="/">
             <!--<img
           src="../assets/pinterest_profile_image.png"
           alt="Endki_portfolio"
@@ -41,7 +41,7 @@
             <b-img
               v-bind="titleImage"
               center
-              :src="require('../assets/pinterest_profile_image.png')"
+              :src="require('../../assets/pinterest_profile_image.png')"
               alt="Center image"
             ></b-img>
           </a>
@@ -73,11 +73,11 @@
           <b-navbar-nav>
             <b-nav-item href="#">포트폴리오</b-nav-item>
             <b-nav-item-dropdown text="JavaScript 게임" right>
-              <b-dropdown-item href="#">반응속도 체크</b-dropdown-item>
+              <b-dropdown-item to="/game/speedCheck"
+                >반응속도 체크</b-dropdown-item
+              >
             </b-nav-item-dropdown>
-            <b-nav-item :link="{ name: 'board', path: '/board' }"
-              >게시판</b-nav-item
-            >
+            <b-nav-item to="/board">게시판</b-nav-item>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->

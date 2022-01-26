@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="header">
-      <Header>
+      <Header />
     </div>
     <router-view></router-view>
 
@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import Footer from './components/layouts/footer.vue';
 import Header from './components/layouts/header.vue';
+import Footer from './components/layouts/footer.vue';
 
 export default {
   name: 'App',

@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from './views/home.vue'
 import Board from './views/board/board.vue'
-
+import Speed from './views/game/pages/speedCheck.vue'
 Vue.use(VueRouter);
 
 //라우트 정보
@@ -18,6 +18,13 @@ const routes = [
         name:"Board",
         component: Board
     }
+    ,
+    {
+        path: "/game/speedCheck",
+        name:"speedCheck",
+        component: Speed
+    }
+
 ];
 
 

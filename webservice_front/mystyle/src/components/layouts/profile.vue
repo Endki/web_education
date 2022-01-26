@@ -30,7 +30,7 @@
           >
             <div class="photo pull-left">
               <img
-                src="../../public/pig.png"
+                src="../../../public/pig.png"
                 title=""
                 style="width: 32px; height: 32px"
               />

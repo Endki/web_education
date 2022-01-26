@@ -1,7 +1,11 @@
 <template>
   <div id="screen" class="waiting">클릭해서 시작하세요</div>
-  <!-- <script src="반응속도.js"></script> -->
 </template>
+
+<script>
+export default {};
+</script>
+
 <style>
 #screen {
   width: 300px;
