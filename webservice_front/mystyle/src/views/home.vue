@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Side from '../components/side.vue';
+import Side from '../components/layouts/side.vue';
 export default {
   components: { Side },
   props: {

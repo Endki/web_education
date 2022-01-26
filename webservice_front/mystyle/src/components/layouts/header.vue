@@ -72,7 +72,9 @@
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
             <b-nav-item href="#">포트폴리오</b-nav-item>
-            <b-nav-item href="#">JavaScript 게임</b-nav-item>
+            <b-nav-item-dropdown text="JavaScript 게임" right>
+              <b-dropdown-item href="#">반응속도 체크</b-dropdown-item>
+            </b-nav-item-dropdown>
             <b-nav-item :link="{ name: 'board', path: '/board' }"
               >게시판</b-nav-item
             >

@@ -1,24 +1,25 @@
 <template>
   <div id="app">
     <div id="header">
-      <Header />
+      <Header>
     </div>
+    <router-view></router-view>
 
-    <Index />
-
-    <div id="footer"></div>
+    <div id="footer">
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-import Header from './components/header.vue';
-import Index from './pages/home.vue';
+import Footer from './components/layouts/footer.vue';
+import Header from './components/layouts/header.vue';
 
 export default {
   name: 'App',
   components: {
+    Footer,
     Header,
-    Index,
   },
 };
 </script>
