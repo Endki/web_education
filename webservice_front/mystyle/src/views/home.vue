@@ -5,16 +5,12 @@
         <b-col fluid="sm" cols="6"> 게시판! </b-col>
         <b-col fluid="sm" cols="4"> 게시판! </b-col>
       </b-col>
-
-      <b-col cols="3"><Side /></b-col>
     </b-row>
   </b-container>
 </template>
 
 <script>
-import Side from '../components/layouts/side.vue';
 export default {
-  components: { Side },
   props: {
     msg: String,
   },
