@@ -6,8 +6,9 @@
         <b-col fluid="sm" cols="4"> 게시판! </b-col>
       </b-col>
 
-      <b-col cols="3"><Side /></b-col> </b-row
-  ></b-container>
+      <b-col cols="3"><Side /></b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>

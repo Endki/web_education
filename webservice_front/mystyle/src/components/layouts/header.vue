@@ -73,6 +73,7 @@
           <b-navbar-nav>
             <b-nav-item href="#">포트폴리오</b-nav-item>
             <b-nav-item-dropdown text="JavaScript 게임" right>
+              <b-dropdown-item to="/game/99dan">구구단</b-dropdown-item>
               <b-dropdown-item to="/game/speedCheck"
                 >반응속도 체크</b-dropdown-item
               >

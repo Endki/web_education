@@ -2,7 +2,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from './views/home.vue'
 import Board from './views/board/board.vue'
-import Speed from './views/game/pages/speedCheck.vue'
+// import Speed from './views/game/pages/speedCheck.vue'
+// 게임
+import gugudan from './views/game/99dan/Gugudan.vue'
 Vue.use(VueRouter);
 
 //라우트 정보
@@ -20,10 +22,15 @@ const routes = [
     }
     ,
     {
-        path: "/game/speedCheck",
-        name:"speedCheck",
-        component: Speed
+        path: "/game/99dan",
+        name: "gugudan",
+        component: gugudan
     }
+    // {
+    //     path: "/game/speedCheck",
+    //     name:"speedCheck",
+    //     component: Speed
+    // }
 
 ];
 
