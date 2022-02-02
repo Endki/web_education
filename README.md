@@ -1,13 +1,28 @@
-# web_education
-JPA,Spring, OAuth2.0, aws(EC2), CD/CI
+# 마이 프로젝트
+`개인 프로젝트` `웹기술` `내가 하고 싶은 것들`
 
+내가 개발해보고 싶은 기능들을 모아서 커뮤니티 형식으로 구현
 
-# branch
-- 브랜치를 나눠서 해보고자 했으나, 개인 공부위주라 메인 브랜치에서 모든 작업을 하기로 결정 -> 다만 commit rule은 지키자는 마인드!
+### 구현 기능
 
-# exp?
+- JavaScriptGame (지뢰찾기, 틱택토 등등)
+- 게시판 (커뮤니티 기능)
+- 회원가입 / 로그인
+- 스케쥴러
 
-- 웹 프로젝트의 동작 (기존에는 어떤 원리로 동작하는지 생각을 못하고 DB에서 데이터 꺼내서 view에 뿌려줄 생각만 하고 있었다.)
-- JPA[ORM]에 대해서 (아직 어떤건지 이해하지는 못했지만, 이렇게 쓰는거다/이런거다 정도로 알아가기 위해 노력)
-- SpringSecurity 의 적용 (이때까지의 프로젝트는 보안성 적용을 password를 암호화/복호화 로 관리하는 것만 생각했었다. SpringSecurity의 적용법과 이론을 알아보자)
-- CI/CD 란? (지속적 통합/ 지속적 배포라는 것은 docker를 공부하면서 필요성은 알고 있었지만, Jenkins를 통한 배치는 해본적이 없었다. 이 기회에 배워보자)
+### 🚀 기술 스택
+
+##### Programming Languages
+<img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/> <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
+
+##### Framework
+<img alt="Vue.js" src="https://img.shields.io/badge/vuejs%20-%2335495e.svg?&style=for-the-badge&logo=vue.js&logoColor=%234FC08D"/> <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"> <img alt="Spring" src="https://img.shields.io/badge/spring%20-%236DB33F.svg?&style=for-the-badge&logo=spring&logoColor=white"/>
+
+##### Hosting/SaaS
+<img alt="AWS" src="https://img.shields.io/badge/AWS%20-%23FF9900.svg?&style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+
+##### Servers
+<img alt="Nginx" src="https://img.shields.io/badge/nginx%20-%23009639.svg?&style=for-the-badge&logo=nginx&logoColor=white"/>
+
+##### Databases
+<img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
